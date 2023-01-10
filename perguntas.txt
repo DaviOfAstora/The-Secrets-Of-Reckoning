@@ -1,0 +1,38 @@
+facil:
+var pf1=["Quando dizemos que uma função é continua em um ponto quer dizer que","f(x) é contínua num ponto 'a' de seu domínio quando o limite de f(x) com x tendendo a 'a', existir, ou seja: formula","Quando desenhamos a função,podemos ver trechos 'vazios' em sua imagem ou domínio"], pf2=['O limite de X tende a P, logo:','O limite não depende de f(P) necessariamente, mas sim de valores vizinhos a P',"Que x = P em qualquer situação",], pf3=['O que é limite lateral?','são limites nos quais nos aproximamos ora pela direita ora pela esquerda. Ou seja, o limite de uma função por valores maiores do que o ponto limite (direita)  e menores (esquerda)',"São limites que se afastam do ponto pela direita ou pela esquerda"], pf4=["Se os os limites laterais tiverem valores distintos, isso siginifica que",'O limite da função nesse ponto não existe','O limite da função nesse ponto existe e é igual ao valor do limite indo pela direita'] ,pf5=['O teorema do confronto é utilizado para:','O limite da função nesse ponto não existe','Sejam g(x), f(x) e h(x) funções em que g(x)≤f(x)≤h(x) e seja a um ponto, se o formulaG = formulaH = L, entao formulaF = L',"Verificar se a confronto/diferença no resultado de limites laterais de um mesmo ponto na função"], pf6=["Qual a relação entre derivada e a reta tangente","A derivada é o coeficiente ângular da reta tangente, ou seja Y-Yo = f'(a).(X-Xo)","A derivada de qualquer função trigonométricas é igual a tg(x)"], pf7=["Se a derivada de uma função f em um ponto 'P' é positiva então","f′(P)>0  : existe uma vizinhança de a em que f é crescente","f′(P)<0  : existe uma vizinhança de a em que f é decrescente"], pf8=["Se a derivada de uma função f em um ponto 'P' é negatva então","f′(P)<0  : existe uma vizinhança de a em que f é decrescente","f′(P)>0  : existe uma vizinhança de a em que f é crescente"],pf9=['Qual a relação entre derivada e taxa de variação'," A derivada é a taxa de variação pontual de uma função","Não existe relação entre derivada e taxa de variação"],pf10=["O que diz o teorema do valor médio ?","Para qualquer função derivável f e um intervalo (a,b),existe um número c entre (a,b) de modo que f'(c) é igual à taxa de variação média da função sobre (a,b)","Para qualquer função derivável f e um intervalo (a,b), existe um c que é a média das derivadas do ponto a e b"],pf11=["O que diz o teorema do Weierstrass (máximos e mínimos)","Afirma que qualquer função contínua de um intervalo (a,b) é limitada e que, além disso, tem um máximo e um mínimo nesse intervalo.","Afirma que qualquer função contínua de um intervalo (a,b) é infinita e, por isso não existe máximos e mínimos locais"],pf12=["A regra da soma é","(f+g)’=f’+g’","(f * g)’=f’*g+f*g’"], pf13=["A regra da produto é","(f * g)’=f’*g+f*g’","(f+g)’=f’+g’"],pf14=["A regra do quociente é","(f /g)’=(f’*g-f*g’)/g²","(f * g)’=f’*g+f*g’"],pf15=["A regra da cadeia é","(f(g(x)))'=f'(g(x))*g'(x)","(f /g)’=(f’*g-f*g’)/g²"],pf16=["O que acontece se derivarmos na ordem n+1 um polinomio de ordem n","O resultado é 0","O resultado é o produto do coeficiente com os expontes cada vez que derivamos"]
+
+var perguntasFaceis=[pf1,pf2,pf3,pf4,pf5,pf6,pf7,pf8,pf9,pf10,pf11,pf12,pf13,pf14,pf15,pf16]
+
+
+
+
+dificil:
+
+var pd1=["f(x)= ln(x),f’(x)=?","1/x","x","1/x²","x²"], pd2=["f(x)= sen(x), f’(x)=?","cos(x)","sec(x)","-sen(x)","tg(x)"],pd3=["f(x)= cos(x), f’(x)=?","-sen(x)","sen(x)","cos(x)","cossec(x)"],pd4=["f(x)= tg(x), f’(x)=?","sec²(x)","sec(x)","cossec²(x)"],pd5=["f(x)= sec(x), f’(x)=?","sec(x)*tg(x)","cossec(x)tg(x)","sen(x)","cos(x)sen(x)"],pd6=["f(x)= cotg(x), f’(x)=?","cossec²(x)","cossec(x)","sec²(x)","tg²(x)"],pd7=["f(x)= cossec(x), f’(x)=?","cossec(x)*tg(x)","sec(x)tg(x)","sen(x)tg(x)","tg²(x)"],pd8=["Como é a derivada de um função inversa","f’(x)=1/f’(g(x))","f'(x)*g(x)+f(x)*g'(x)","f’(x)+g’(x)","f’(x)*g(x)-f(x)*g’(x))/g²(x)"],pd9=["O que significa derivada igual a 0 ?","O angulo da tangente ao ponto = 0°, ou seja sem inclinação","que a inclinação será de angulo 90°, ou seja faz inclinação paralela ao eixo Y","Não é possivel derivar a função","Que seu limite em qualquer ponto não existe"], pd10=["Como saber se a concavidade de um trecho da função é voltada para cima ou para baixo","Derivamos até a 2 ordem, se f''(x)>0 entao a concavidade é voltada para cima, caso negativa, voltada para baixo, caso igual a 0 entao encontramos um ponto de inflexão","Derivamos até a 2 ordem, se f''(x)>0 entao a concavidade é voltada para baixo, caso negativa, voltada para cima, caso igual a 0 entao encontramos um ponto de inflexão","Derivamos até a 3 ordem, se f''(x)>0 entao a concavidade é voltada para cima, caso negativa, voltada para baixo, caso igual a 0 entao encontramos um ponto de inflexão","Derivamos até a 3 ordem, se f''(x)>0 entao a concavidade é voltada para baixo, caso negativa, voltada para cima, caso igual a 0 entao encontramos um ponto de inflexão"],pd11=["Quando usamos a regra de L'Hospital ?","Quando ocorre uma indeterminação matemática na qual há uma divisão 0/0 ou ∞/∞","Podemos usar a regra em qualquer situação","quando ocorre uma indeterminação matemática na qual há uma divisão 0/n ou ∞/n","Quando o calculo da integral é igual a zero"],pd12=["∫dx","x","x²","1/x","1/x²"],pd13=["∫dx/x","ln(x)","x","1/x","1/x²"],pd14=["∫sen(x)dx","-cos(x)","tg(x)","-sen(x)","cos(x)"],pd15=["∫cos(x)dx","sen(x)","cos(x)","sec(x)","-sen(x)"],pd16=["∫sec(x)tg(x)dx","sec(x)","-sen(x)","cos(x)","cossec(x)"],pd17=["∫sec²(x)dx","tg(x)","cossec(x)tg(x)","sen(x)","cos(x)sen(x)"]
+
+
+var perguntasDificeis=[pd1,pd2,pd3,pd4,pd5,pd6,pd7,pd8,pd9,pd10,df11,pd12,pd13,pd14,pd15,pd16,pd17]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
