@@ -1,14 +1,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%
 }
 canvas {
-  display: flex;
+  display: block;
 
-  /* This centers our sketch horizontally. */
-  justify-content: center;
-
-  /* This centers our sketch vertically. */
-  align-items: center;
 }
