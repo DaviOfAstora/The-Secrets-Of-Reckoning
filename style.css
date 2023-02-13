@@ -3,6 +3,5 @@ html, body {
   padding: 0;
 }
 canvas {
-  display: block;
-  style="display:block;margin-left:auto;margin-right:auto;">
+  display: block
 }
